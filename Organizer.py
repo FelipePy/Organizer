@@ -30,9 +30,6 @@ def organizar(diretorio):
     pastas = ["audios", "imagens", "videos", "documentos", "programas", "outros"]
     formatos = [audios_ext, imagens_ext, videos_ext, documentos_ext, programas_ext]
 
-    #for pasta in pastas:
-    #    if not os.path.isdir(os.path.join(diretorio, pasta)):
-    #        os.mkdir(os.path.join(diretorio, pasta))
     contador = 0
     nomes_arquivos = os.listdir(diretorio)
 
