@@ -1,4 +1,6 @@
-				#----------Organizer----------#
+#			----------Organizer----------
+
+
 This project is intended to make your life more organized in relation to your directories!
 
 It is a simple program with full support for suggestions and improvements!
