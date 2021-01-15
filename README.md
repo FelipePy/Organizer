@@ -9,7 +9,7 @@ It was created in a **totally** moment of need to organize my directories!
 
 If you wanted to use it, just give a git clone `git clone` https://github.com/FelipePy/Organize.git
 
-Place the downloaded files -> ** (Organizer - Organizer.py - Bannert.txt) ** in the directory -> **"/usr/bin/Organizer"**.
+Place the downloaded files -> **(Organizer - Organizer.py - Bannert.txt)** in the directory -> **"/usr/bin/Organizer"**.
 
 **==HOW TO USE==**
 
