@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DIR="/usr/bin/Organizer"
+
+cat $DIR/Banner.txt
+/usr/bin/env python $DIR/Organizer.py $1
