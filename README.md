@@ -15,3 +15,4 @@ Place the downloaded files -> **(Organizer - Organizer.py - Bannert.txt)** in th
 
 To run it, just use the command `Organizer [directory]` or just
 `Organizer` if the directory you want to organize is the current one.
+## Warning !!! this project is for command line use
