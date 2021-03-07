@@ -14,7 +14,7 @@ class Organizer:
         self.so = So()
         print("TESTE")
 
-    def organize(self, directory):
+    def organizer(self, directory):
         aud = [0, "audios"]
         img = [0, "imagens"]
         vid = [0, "videos"]
