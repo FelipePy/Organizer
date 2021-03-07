@@ -1,6 +1,7 @@
 import os
 from so import So
 
+
 class Organizer:
 
     def __init__(self):
@@ -9,10 +10,9 @@ class Organizer:
         self.images_ext = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.psd', '.exif', '.raw']
         self.documents_ext = ['.txt', '.log', '.pdf', '.docx', '.pptx', '.word', '.xlsx', '.ppt', '.psd', '.cdr', '.ai']
         self.programs_ext = ['.exe', '.py', '.c', '.cpp', '.js', '.zip', '.rar', '.bin', '.sh', '.ini', '.jar', '.java',
-                         '.jav',
-                         '.izh', '.msi']
+                             '.jav',
+                             '.izh', '.msi']
         self.so = So()
-        print("TESTE")
 
     def organizer(self, directory):
         aud = [0, "audios"]
@@ -24,12 +24,12 @@ class Organizer:
         abrev = [aud, img, vid, doc, pro, out]
         folders = ["audios", "imagens", "videos", "documentos", "programas", "outros"]
         formats = [self.audios_ext, self.images_ext, self.videos_ext, self.documents_ext, self.programs_ext]
-
+        self.create_folders = []
         counter = 0
         archives_names = os.listdir(directory)
 
         for archive in archives_names:
-            new_folder = os.path.join(directory, folders[0])
+            new_folder = str(os.path.join(directory, folders[0]))
             if os.path.isfile(os.path.join(directory, archive)):
                 counter += 1
                 count = 0
@@ -58,16 +58,23 @@ class Organizer:
 
         print(f"\n\nSistema Operacional -> {self.so.get_so()}")
         print(f"\033[34mTotal de arquivos organizados -> \033[0m\033[31m{counter}\033[0m")
-        for abv in abrev:
-            if abv[0] > 0:
-                print(abv[1], "->", abv[0])
 
+        if counter > 0:
+            print("\n\033[34mArquivos em cada pasta\033[0m")
+            for abv in abrev:
+                if abv[0] > 0:
+                    print(abv[1], "->", abv[0])
+
+            print('\n\033[34mPastas criadas\033[0m')
+            for folder in self.create_folders:
+                index = folder.rfind('/')
+                print(f"-> {folder[index + 1:]}")
 
     def create_folder(self, folder):
         folder = os.path.join(folder)
         if not os.path.isdir(folder):
             os.mkdir(folder)
-            print(f"Pasta criada -> {folder}")
+            self.create_folders.append(folder)
 
     def check_arguments(self):
         print("Verificou os argumentos")

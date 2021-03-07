@@ -3,4 +3,4 @@
 DIR="/usr/bin/Organizer/"
 
 cat $DIR/Banner.txt
-/usr/bin/env python $DIR"/src/"main.py $1
+/usr/bin/env python $DIR"src/"main.py $1

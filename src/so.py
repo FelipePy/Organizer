@@ -32,14 +32,15 @@ class So:
             if self.question() == 0:
                 return directory
 
-    def check_user_windows(self): #TODO
+        return directory
+
+    def check_user_windows(self):  # TODO
         pass
 
     def get_directory(self):
         arguments = sys.argv
         so = self.get_so()
-        directory = ""
-        if len(arguments) < 2: # == 0
+        if len(arguments) < 2:  # == 0
             directory = os.getcwd().strip()
 
             if so == "Linux":
@@ -47,11 +48,11 @@ class So:
 
         elif len(arguments) > 2:
             while True:
-                resposta = str(input("Deseja ver o modo de uso ? [S/N]: ")).upper()
-                if resposta == "S":
-                    print("\n\033[31mModo de uso -> python3 Organizacao.py [diretorio]\033[0;0m")
+                response = str(input("Deseja ver o modo de uso ? [S/N]: ")).upper()
+                if response == "S":
+                    print("\n\033[31mModo de uso -> Organizer [diretorio]\033[0;0m")
                     exit(0)
-                elif resposta == "N":
+                elif response == "N":
                     print("\033[94mAté logo!\033[0m")
                     exit(0)
                 else:
