@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR="/usr/bin/Organizer"
+DIR="/usr/bin/Organizer/src"
 
 cat $DIR/Banner.txt
-/usr/bin/env python $DIR/Organizer.py $1
+/usr/bin/env python $DIR/main.py $1
