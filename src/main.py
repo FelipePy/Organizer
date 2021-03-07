@@ -4,6 +4,7 @@ from so import So
 
 class Main:
     
+    
     try:
         organizer = Organizer()
         so = So()
