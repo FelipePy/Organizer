@@ -3,11 +3,11 @@ from so import So
 
 
 class Main:
-
-    organizer = Organizer()
-    so = So()
-    directory = so.get_directory()
+    
     try:
+        organizer = Organizer()
+        so = So()
+        directory = so.get_directory()
         organizer.organizer(directory)
     except:
         print("Algo deu errado, Tente novamente")
