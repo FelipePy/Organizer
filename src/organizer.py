@@ -15,14 +15,14 @@ class Organizer:
         self.so = So()
 
     def organizer(self, directory):
-        aud = [0, "audios"]
-        img = [0, "imagens"]
-        vid = [0, "videos"]
-        doc = [0, "documentos"]
-        pro = [0, "programas"]
-        out = [0, "outros"]
+        aud = [0, "Audios"]
+        img = [0, "Imagens"]
+        vid = [0, "Videos"]
+        doc = [0, "Documentos"]
+        pro = [0, "Programas"]
+        out = [0, "Outros"]
         abrev = [aud, img, vid, doc, pro, out]
-        folders = ["audios", "imagens", "videos", "documentos", "programas", "outros"]
+        folders = ["Audios", "Imagens", "Videos", "Documentos", "Programas", "Outros"]
         formats = [self.audios_ext, self.images_ext, self.videos_ext, self.documents_ext, self.programs_ext]
         self.create_folders = []
         counter = 0
@@ -44,7 +44,7 @@ class Organizer:
                             break
 
                     count += 1
-                    if folders[count] == "outros":
+                    if folders[count] == "Outros":
                         self.create_folder(new_folder)
                         out[0] += 1
                     new_folder = os.path.join(directory, folders[-1])
