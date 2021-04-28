@@ -1,4 +1,5 @@
 #	Organizer
+![GitHub](https://img.shields.io/github/license/FelipePy/Organizer)
 
 ### Language
  - Python
