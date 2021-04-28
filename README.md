@@ -4,7 +4,7 @@
  - Python
 
 
-## How execute in Linux
+## How to run on Linux
 ```bash
 # Clone the repository
 git clone https://github.com/FelipePy/Organize.git
