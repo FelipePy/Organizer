@@ -1,18 +1,23 @@
 #	Organizer
 
+### Language
+ - Python
 
-This project is intended to make your life more organized in relation to your directories!
 
-It is a simple program with full support for suggestions and improvements!
+## How execute
+```bash
+# Clone the repository
+git clone https://github.com/FelipePy/Organize.git
 
-It was created in a **totally** moment of need to organize my directories!
+# In the folder where you downloaded, execute
+mv Organizer /usr/bin/Organizer
 
-If you wanted to use it, just give a git clone `git clone` https://github.com/FelipePy/Organize.git
 
-Place the downloaded files -> **(Organizer - Organizer.py - Bannert.txt)** in the directory -> **"/usr/bin/Organizer"**.
+# To execute the project
 
-**==HOW TO USE==**
+Organizer [directory]
 
-To run it, just use the command `Organizer [directory]` or just
-`Organizer` if the directory you want to organize is the current one.
-## Warning !!! this project is for command line use
+or just Organizer
+if the directory you want to organize is the current one.
+```
+
