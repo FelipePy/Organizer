@@ -1,5 +1,5 @@
 #	Organizer
-![GitHub](https://img.shields.io/github/license/FelipePy/Organizer)
+[![NPM](https://img.shields.io/github/license/FelipePy/Organizer)](https://github.com/FelipePy/Organizer/blob/master/LICENSE)
 
 ### Language
  - Python
