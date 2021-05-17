@@ -10,7 +10,7 @@
 ## Como usar no Linux
 ```bash
 # Clone o repositório
-git clone https://github.com/FelipePy/Organize.git
+git clone https://github.com/FelipePy/Organizer.git
  
 # Mova o arquivo para /usr/bin
 mv Organizer /usr/bin/
