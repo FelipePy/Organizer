@@ -11,16 +11,4 @@
 ```bash
 # Clone o repositório
 git clone https://github.com/FelipePy/Organizer.git
- 
-# Mova o arquivo para /usr/bin
-mv Organizer /usr/bin/
-
-
-# Para executar o programa
-
-Organizer [directory]
-
-Ou apenas Organizer
-Se onde deseja organizar seja no diretório atual
 ```
-
