@@ -1,12 +1,6 @@
 #	Organizer
 [![NPM](https://img.shields.io/github/license/FelipePy/Organizer)](https://github.com/FelipePy/Organizer/blob/master/LICENSE)
 
-### Linguagem
- - Python
-
-### Saída
-![WhatsApp Image 2021-04-28 at 18 27 57](https://user-images.githubusercontent.com/60964439/116474909-7d1f0600-a84f-11eb-8256-6cd6101a969f.jpeg)
-
 ## Como instalar no Ubuntu
 1. Clone o repositório
 > git clone https://github.com/FelipePy/Organizer.git
@@ -15,7 +9,7 @@ Ou baixe o projeto diretamente
 
 2. Desencriptar o arquivo
 
-3. Mova a pasta para onde deseja deixar o script
+3. Mova a pasta para sua pasta pessoal
 
 > mv Organizer ~/.Organizer
 
@@ -25,7 +19,7 @@ Ou baixe o projeto diretamente
 5. Abra o arquivo\
 > sudo vim /usr/bin/Organizer
 
-5.1 Configure a variável "DIR" para o diretório onde deixará os arquivos do script\
+5.1 Configure a variável "DIR" apontando para a pasta principal\
 ```
 #!/bin/bash
 
@@ -38,7 +32,7 @@ cat $DIR"Banner.txt"
 6. De permissão de execução para o script\
 > sudo chmod +x /usr/bin/Organizer
 
-# Execução do script
+## Execução do script
 ### Há duas maneiras de executar o script
 
 1. Entre no diretório a ser organizado e utilize o comando ```Organizer```
