@@ -32,6 +32,8 @@ cat $DIR"Banner.txt"
 6. De permissão de execução para o script\
 > sudo chmod +x /usr/bin/Organizer
 
+7. Reinicie seu terminal
+
 ## Execução do script
 ### Há duas maneiras de executar o script
 
