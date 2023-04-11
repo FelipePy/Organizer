@@ -3,23 +3,31 @@
 
 ## Como instalar no Ubuntu
 1. Clone o repositório
-> git clone https://github.com/FelipePy/Organizer.git
-Ou baixe o projeto diretamente
+```
+git clone https://github.com/FelipePy/Organizer.git
+```
+1.1 Ou baixe o projeto diretamente
 [DOWNLOAD](https://github.com/FelipePy/Organizer.git)
 
-2. Desencriptar o arquivo
+1.1.1 Caso tenha baixado o arquivo pelo link, descript o arquivo
 
-3. Mova a pasta para sua pasta pessoal
+2. Mova a pasta para o seu diretório pessoal
 
-> mv Organizer ~/.Organizer
+```
+mv Organizer ~/.Organizer
+```
 
-4. Dentro da pasta Organizer, mova o arquivo Organizer para um diretório de execução\
-> mv Organizer /usr/bin/Organizer
+3. Dentro da pasta .Organizer, mova o arquivo Organizer para um diretório de execução
+```
+sudo mv Organizer /usr/bin/Organizer
+```
 
-5. Abra o arquivo\
-> sudo vim /usr/bin/Organizer
+4. Abra o arquivo
+```
+sudo vim /usr/bin/Organizer
+```
 
-5.1 Configure a variável "DIR" apontando para a pasta principal\
+4.1 Configure a variável "DIR" apontando para a pasta principal
 ```
 #!/bin/bash
 
@@ -28,11 +36,12 @@ Ou baixe o projeto diretamente
 cat $DIR"Banner.txt"
 /usr/bin/env python3 $DIR"src/"main.py $1
 ```
+4.2 Salve e feche o arquivo
 
-6. De permissão de execução para o script\
+5. De permissão de execução para o script
 > sudo chmod +x /usr/bin/Organizer
 
-7. Reinicie seu terminal
+6. Reinicie seu terminal
 
 ## Execução do script
 ### Há duas maneiras de executar o script
