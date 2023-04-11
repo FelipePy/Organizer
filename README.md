@@ -15,23 +15,27 @@ Ou baixe o projeto diretamente
 
 2. Desencriptar o arquivo
 
-3. Na pasta onde o arquivo foi baixado, mova-o para um diretório de execução\
-```mv Organizer/Organizer /usr/bin/Organizer```
+3. Mova a pasta para onde deseja deixar o script
 
-4. Abra o arquivo\
+> mv Organizer ~/.Organizer
+
+4. Dentro da pasta Organizer, mova o arquivo Organizer para um diretório de execução\
+```mv Organizer /usr/bin/Organizer```
+
+5. Abra o arquivo\
 > sudo vim /usr/bin/Organizer
 
-4.1 Altere o caminho do arquivo mudando a variável "DIR" para o diretório onde deixará os arquivos do script\
+5.1 Altere o caminho do arquivo mudando a variável "DIR" para o diretório onde deixará os arquivos do script\
 ```
 #!/bin/bash
 
-DIR="/home/felipe/.Organizer/"
+ -> DIR="/home/user/.Organizer/"
 
 cat $DIR"Banner.txt"
 /usr/bin/env python3 $DIR"src/"main.py $1
 ```
 
-5. De permissão de execução para o script bash\
+6. De permissão de execução para o script\
 > sudo chmod +x /usr/bin/Organizer
 
 # Execução do script
