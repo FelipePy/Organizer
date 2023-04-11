@@ -25,7 +25,7 @@ Ou baixe o projeto diretamente
 5. Abra o arquivo\
 > sudo vim /usr/bin/Organizer
 
-5.1 Altere o caminho do arquivo mudando a variável "DIR" para o diretório onde deixará os arquivos do script\
+5.1 Configure a variável "DIR" para o diretório onde deixará os arquivos do script\
 ```
 #!/bin/bash
 
