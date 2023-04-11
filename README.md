@@ -20,7 +20,7 @@ Ou baixe o projeto diretamente
 > mv Organizer ~/.Organizer
 
 4. Dentro da pasta Organizer, mova o arquivo Organizer para um diretório de execução\
-```mv Organizer /usr/bin/Organizer```
+> mv Organizer /usr/bin/Organizer
 
 5. Abra o arquivo\
 > sudo vim /usr/bin/Organizer
