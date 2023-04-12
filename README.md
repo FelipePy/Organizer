@@ -7,7 +7,7 @@
 git clone https://github.com/FelipePy/Organizer.git
 ```
 1.1 Ou baixe o projeto diretamente
-[DOWNLOAD](https://github.com/FelipePy/Organizer.git)
+[DOWNLOAD](https://github.com/FelipePy/Organizer/archive/refs/heads/master.zip)
 
 1.1.1 Caso tenha baixado o arquivo pelo link, descript o arquivo
 
